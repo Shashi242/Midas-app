@@ -1,0 +1,259 @@
+.loads_parent{
+    background-color: rgb(231, 236, 234);
+    margin-top: 0.5%;
+    /* height: 100vh; */
+    height: auto;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+}
+.loads_main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+.comb_main{
+    border: solid 1px rgb(190, 187, 187);
+    height: 65px;
+    padding: 1%;
+}
+.load_inp{
+    height: 25px;
+    width: 92%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 2%;
+}
+.load_inp span{
+    font-size: 14px;
+}
+.load_inp select{
+    margin-left: 2%;
+    height: 17px;
+    width: 25%;
+    text-align: left;
+}
+.load_inp input{
+    margin-left: 4%;
+    height: 15px;
+    width: 15px;
+}
+
+.define_div{
+    border: solid 1px gray;
+    font-size: 13px;
+    width: 35%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+
+.density_parent{
+    border: solid 1px rgb(190, 187, 187);
+    margin-top: 1%;
+    /* height: 100px; */
+    height: auto;
+    padding: 1%;
+}
+.sw{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.pavement{
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 13px;
+    margin-bottom: 1.2%;
+}
+.pavement_text{
+    display: flex;
+    align-items: center;
+}
+.pavement .div1{
+    width: 33%;
+    /* width: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 10%;
+    /* background-color: aqua; */
+}
+.pavement .div1 input{
+    margin-right: auto;
+    width: 38%;
+}
+.pavement .div2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.pavement .span1{
+    margin-right: 0.5%;
+    border: solid 1px gray;
+    width: 52%;
+    text-align: center;
+}
+.pavement .span2{
+    margin-right: 0.5%;
+    border: solid 1px gray;
+    width: 60%;
+    text-align: center;
+}
+.pavement .inp{
+    width: 26%;
+}
+.surcharge{
+    /* background-color: aquamarine; */
+}
+.surcharge .div1{
+    margin-right: 45%;
+    /* background-color: bisque; */
+}
+
+
+.force_len{
+    height: 21px;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.force_unit{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.force_unit span{
+    border: solid 1px blue;
+    height: 100%;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    display: flex;
+}
+.force_unit select{
+    width: 49%;
+    height: 100%;
+}
+
+@media screen and (max-width: 673px){
+    .loads_main{
+        width: 97%;
+    }
+    .comb_main .load_inp{
+        height: auto;
+        width: 95%;
+        font-size: 11px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .load_inp span{
+        font-size: 12px;
+    }
+    .define_div{
+        width: auto;
+    }
+    .pavement{
+        height: auto;
+        display: flex;
+        justify-content: none;
+    }
+    .pavement .div1{
+        width: auto;
+        margin-right: 1%;
+        height: auto;
+    }
+    .pavement .div2{
+        width: auto;
+        width: auto;
+        margin-right: 0;
+    }
+    .pavement_text{
+        /* background-color: yellow; */
+        font-size: 12px;
+        align-items: start;
+    }
+    .pavement.ms{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .pavement.ms .pavement_text{
+        width: 60%;
+    }
+    .pavement.ms .div1 input{
+        width: 80%;
+    }
+    .cl .div1{
+        width: 70% !important;
+        margin-right: 0 !important;
+        margin-left: 4%;
+    }
+    .cl .div1 .span1{
+        width: 60%;
+    }
+
+    .ll .div1{
+        width: 70% !important;
+        margin-right: 5% !important;
+    }
+
+    .ecc .div1{
+        width: 60% !important;
+        margin-right: 15% !important;
+        justify-content: space-between !important;
+    }
+    .ecc .div1 .span1{
+        margin-right: 0 !important;
+        width: 49% !important;
+    }
+    .ecc .div1 .span2{
+        width: 50% !important;
+        margin-right: 0% !important;
+    }
+
+    .stm .div1{
+        margin-right: 20% !important;
+        width: 50% !important;
+    }
+    .stm .div1 input{
+        width: 95% !important;
+    }
+    .stp .div1{
+        width: 60% !important;
+        margin-right: 0 !important;
+        margin-left: 2%;
+    }
+    .stp .div1 span{
+        width: 50% !important;
+    }
+    .stp .div1 input{
+        width: 28% !important;
+    }
+    .force_unit{
+        width: 48%;
+    }
+    .div1.sst{
+        background-color: aqua !important;
+        width: 35% !important;
+        margin-left: 2% !important;
+    }
+    .div2.sst2{
+        margin-right: 0 !important;
+    }
+}

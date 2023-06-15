@@ -1,0 +1,321 @@
+.traverse_parent{
+    background-color: rgb(231, 236, 234);
+    margin-top: 0.5%;
+    /* height: 100vh; */
+    height: auto;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+}
+.traverse_div{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.diagram{
+    background-color: rgb(203, 209, 209);
+    height: 70px;
+    margin-bottom: 3%;
+}
+
+.type_div{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 1%;
+}
+.selectdiv{
+    width: 40%;
+    display: flex;
+}
+.selectdiv .type{
+    border: solid 1px black;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    /* height: 50px; */
+}
+.selectdiv select{
+    width: 68%;
+    margin-left: auto;
+    height: 50px;
+}
+.plate_size_div{
+    margin-left: 5%;
+    height: 25px;
+    display: flex;
+    /* background-color: aquamarine; */
+    width: 50%;
+}
+.plate_size_div .plate_size{
+    border: solid 1px black;
+    font-size: 13px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plate_size_div input{
+    width: 20%;
+    text-align: center;
+}
+.unit_main{
+    /* height: 85px; */
+    height: auto;
+    border: solid 1px gray;
+    margin-top: 1.4%;
+    padding: 1.5%;
+    padding-bottom: 0%;
+}
+.unit_main .rows{
+    height: 20px;
+    /* background-color: bisque; */
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+.unit_inp{
+    width: 21%;
+    display: flex;
+}
+.unit_inp span{
+    font-size: 12px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+}
+.unit_inp input{
+    width: 60%;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.supports_div{
+    border: solid 1px gray;
+    height: 50px;
+    /* height: auto; */
+    margin-top: 1.5%;
+    /* padding: 0.5%; */
+}
+.supports_div .head{
+    font-size: 13px;
+    margin-left: 1%;
+}
+.support_child{
+    height: 20px;
+    margin-top: 0.5%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.support_child .span1{
+    font-size: 12px;
+    width: 25%;
+    text-align: center;
+    border: solid 1px gray;
+}
+.support_child select{
+    width: 15%;
+    margin-left: 2px;
+    height: 100%;
+}
+.support_child .span2{
+    font-size: 13px;
+    margin-left: 1%;
+}
+
+.culvert_supports{
+    border: solid 1px gray;
+    height: auto;
+    padding-bottom: 1%;
+    margin-top: 1.5%;
+}
+.culvert_supports .outer_span{
+    font-size: 13px;
+    text-align: center;
+    margin-left: 1.5%;
+}
+.spring_type{
+    height: 18px;
+    margin-top: 0.5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.spring_type span{
+    font-size: 12px;
+    border: solid 1px gray;
+    width: 35%;
+    text-align: center;
+}
+.spring_type input{
+    margin-left: 2%;
+}
+
+.modulus_main{
+    height: 75px;
+    margin-top: 1%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.modulus_main .text{
+    font-size: 12px;
+    border: solid 1px grey;
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    height: 18px;
+}
+.modulus_main .values{
+    height: 75%;
+    width: 28%;
+    margin-left: 1%;
+}
+.values_inp{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.values_inp input{
+    width: 35%;
+    margin-left: auto;
+    margin-right: 1%;
+    margin-top: 2.5%;
+    display: flex;
+    height: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+.elastic_length{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.elastic_length span{
+    font-size: 12px;
+    border: solid 1px grey;
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    height: 18px;
+}
+.elastic_length input{
+    width: 15%;
+    margin-left: 1%;
+    text-align: center;
+    font-size: 12px;
+}
+.length_unit{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    margin-top: 3%;
+    width: 40%;
+}
+.length_unit span{
+    border: solid 1px gray;
+    font-size: 13px;
+    width: 45%;
+    text-align: center;
+}
+.length_unit select{
+    width: 50%;
+    height: 100%;
+}
+
+.import_div{
+    margin-top: 4%;
+}
+
+
+@media screen and (max-width: 673px){
+    .plate_size_div{
+        width: 60%;
+        text-align: center;
+        height: auto;
+        align-items: center;
+    }
+    .plate_size_div input{
+        width: 40%;
+        height: 60%;
+    }
+    .unit_main{
+        /* height: auto; */
+    }
+
+    .unit_main .rows{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .unit_main .rows .unit_inp{
+        width: 45%;
+    }
+
+    .supports_div{
+        height: auto;
+    }
+
+    .supports_div .support_child{
+        height: auto;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+    }
+    .support_child .span1{
+        width: 40%;
+    }
+
+    .culvert_supports{
+        height: auto;
+        padding-bottom: 2%;
+    }
+    .spring_type{
+        height: auto;
+    }
+    .modulus_main{
+        height: auto;
+    }
+    .modulus_main .text{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+    }
+    .modulus_main .values{
+        width: 100%;
+    }
+    .elastic_length{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: flex;
+        align-items: center;
+    }
+    .elastic_length span{
+        width: auto;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .elastic_length input{
+        width: 35%;
+        margin-top: 1%;
+    }
+    .length_unit{
+        width: auto;
+    }
+}

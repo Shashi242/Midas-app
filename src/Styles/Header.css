@@ -1,0 +1,20 @@
+.heading{
+    height: 25px;
+    background-color: blue;
+    text-align: center;
+
+}
+.section_name{
+    /* background-color: rgb(231, 236, 234); */
+    background-color: rgb(215, 219, 218);
+    border-right: solid 1px black;
+    font-size: 12px;
+    margin-right: 1px;
+    padding: 0.5%;
+    text-decoration: none;
+    color: black;
+}
+
+.section_name.active{
+    background-color: rgb(231, 236, 234);
+}
